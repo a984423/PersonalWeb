@@ -379,6 +379,10 @@ button{
 
 .content h1{
 
+    text-shadow:
+    0 0 10px rgba(255,255,255,.7),
+    0 0 20px rgba(255,170,220,.45);
+
     font-size:90px;
 
     font-weight:300;
@@ -389,6 +393,11 @@ button{
 
 .content h2{
 
+     text-shadow:
+    0 0 10px rgba(255,255,255,.6),
+    0 0 20px rgba(255,170,220,.4);
+
+
     font-size:60px;
 
     margin:10px 0 20px;
@@ -396,6 +405,10 @@ button{
 }
 
 .welcome{
+
+    text-shadow:
+    0 0 10px rgba(255,255,255,.5),
+    0 0 20px rgba(255,255,255,.5);
 
     font-size:30px;
 
@@ -505,7 +518,7 @@ button{
 
     position:absolute;
 
-    left:70%;
+    left:66%;
 
     top:62%;
 
@@ -532,6 +545,10 @@ button{
 
 .intro-panel h3{
 
+    text-shadow:
+    0 0 10px rgba(255,255,255,.6),
+    0 0 20px rgba(255,170,220,.45);
+
     font-size:50px;
 
     margin-bottom:40px;
@@ -539,6 +556,11 @@ button{
 }
 
 .intro-panel p{
+
+    text-shadow:
+    0 0 8px rgba(255,255,255,.3),
+    0 0 15px rgba(255,170,220,.2);
+
     font-size:23px;
     line-height:2;
 
@@ -579,5 +601,19 @@ button{
 .title-box.fade{
 
     opacity:0;
+
+}
+
+.intro-panel p.thanks{
+
+    font-size:30px;
+
+    color:#fff;
+
+    letter-spacing:1px;
+
+    text-shadow:
+        0 0 10px rgba(255,255,255,.6),
+        0 0 20px rgba(255,170,220,.35);
 
 }
