@@ -333,6 +333,11 @@ button{
 
 .logo{
 
+    text-shadow:
+    0 0 10px rgba(255,150,200,.7),
+    0 0 15px rgba(218, 85, 162, 0.45),
+    0 0 25px rgba(255,120,190,.25);
+
     position:absolute;
 
     top:35px;
@@ -344,7 +349,22 @@ button{
 
     letter-spacing:2px;
 
+    opacity:0;
+
+    transform:translateY(-20px);
+
+    transition:all .8s ease;
 }
+
+
+.logo.show{
+
+    opacity:1;
+
+    transform:translateY(0);
+
+}
+
 
 .logo span{
 
@@ -419,6 +439,8 @@ button{
 }
 
 .avatar{
+
+    position:relative;
 
     display:flex;
 
@@ -617,3 +639,4 @@ button{
         0 0 20px rgba(255,170,220,.35);
 
 }
+

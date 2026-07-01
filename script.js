@@ -78,6 +78,12 @@ enterBtn.addEventListener("click", () => {
 
         about.classList.add("show");
 
+         setTimeout(() => {
+
+        document.querySelector(".logo").classList.add("show");
+
+    },300);
+
     },800);
 
 });
