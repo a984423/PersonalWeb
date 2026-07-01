@@ -28,7 +28,7 @@ body{
     filter: drop-shadow(0 0 50px rgba(255, 80, 120, 0.8));
 }
 #heart{
-    font-size:150px;
+    font-size:200px;
     cursor:pointer;
 
     animation: heartbeat 1s infinite;
@@ -36,6 +36,8 @@ body{
 
 .tip{
 opacity:.85;
+
+    font-size:30px;
 
     margin-top:20px;
 
@@ -45,8 +47,8 @@ opacity:.85;
 
     text-shadow:
       
-        0 0 10px rgba(255,255,255,.45),
-        0 0 20px rgba(255,80,120,.35);
+        0 0 30px rgba(255,255,255,.45),
+        0 0 30px rgba(255,80,120,.35);
   
 
 }
@@ -88,7 +90,7 @@ margin-top:40px;
 
 padding:30px;
 
-width:420px;
+width:450px;
 
 background:rgba(255,255,255,.08);
 
@@ -128,6 +130,7 @@ transform:translateY(0);
 
 button{
 
+    font-size:30px;
 margin-top:20px;
 
     padding:10px 20px;
@@ -177,7 +180,7 @@ button{
 
     line-height:2;
 
-    font-size:15px;
+    font-size:25px;
 
     min-height:240px;
 
@@ -372,7 +375,7 @@ button{
 
 .content h1{
 
-    font-size:58px;
+    font-size:90px;
 
     font-weight:300;
 
@@ -382,7 +385,7 @@ button{
 
 .content h2{
 
-    font-size:42px;
+    font-size:60px;
 
     margin:10px 0 20px;
 
@@ -390,7 +393,7 @@ button{
 
 .welcome{
 
-    font-size:18px;
+    font-size:30px;
 
     opacity:.65;
 
@@ -412,9 +415,9 @@ button{
 
     filter:saturate(1.1);
 
-    width:320px;
+    width:500px;
 
-    height:320px;
+    height:500px;
 
     border-radius:50%;
 
@@ -498,7 +501,7 @@ button{
 
     position:absolute;
 
-    left:52%;
+    left:70%;
 
     top:62%;
 
@@ -525,14 +528,14 @@ button{
 
 .intro-panel h3{
 
-    font-size:28px;
+    font-size:50px;
 
-    margin-bottom:15px;
+    margin-bottom:40px;
 
 }
 
 .intro-panel p{
-
+    font-size:23px;
     line-height:2;
 
 }

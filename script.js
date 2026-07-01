@@ -7,13 +7,13 @@ const tip = document.querySelector(".tip");
 const text = `Hello ♡
 你好呀
 
-Thank you for finding this place. ♥
+Thank you for finding this place. ♡
 謝謝你找到這邊.
 
 I'm Xin. ♡
 我是欣欣.
 
-It's nice to meet you. ♥
+It's nice to meet you. ♡
 很高興認識你壓 ~ `;
 
 let index = 0;
